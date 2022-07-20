@@ -1,8 +1,10 @@
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
 .movies {
     color: rgb(0, 102, 102);
     font-size: 1em;
 }
 
-h3 {
-    text-align: center;
-}

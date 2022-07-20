@@ -1,0 +1,21 @@
+div {
+    column-gap: 2em;
+}
+
+.col-3 {
+    background-color: rgb(234, 234, 221);
+}
+
+/* p {
+    margin-top: 6em;
+    font-size: 12px;
+} */
+
+.gif {
+    float: left;
+    margin-top: 5em;
+    margin-left: 30%;
+
+    margin-bottom: 5em;
+    padding: 3px;
+}
