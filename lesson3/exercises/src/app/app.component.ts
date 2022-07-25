@@ -35,7 +35,6 @@ export class AppComponent {
     }
   }
 
-  // TO DO: Double check that this is complete
   handleAbort(rocketImage) {
     let result = window.confirm('Do you really want to abort the mission?');
     if (result) {
@@ -68,4 +67,6 @@ export class AppComponent {
       this.height = this.height - 10000;
    }
   }
+
+  // edgeWarning()
 }
