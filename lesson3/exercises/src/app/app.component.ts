@@ -68,5 +68,13 @@ export class AppComponent {
    }
   }
 
-  // edgeWarning()
+  edgeWarning(height, width) {
+    if (this.height >= 340000 || this.height <= 9000) {
+      this.color = 'orange';
+    } else if (this.width >= 470000 || this.width <= 10000) {
+      this.color = 'orange';
+    } else {
+      this.color = 'blue';
+    }
+}
 }
